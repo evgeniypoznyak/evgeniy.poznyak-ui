@@ -1,9 +1,8 @@
 import React from 'react';
 import {Grid, makeStyles, Paper} from '@material-ui/core';
 import Button from '@material-ui/core/Button';
-import Box from '@material-ui/core/Box';
-import Hidden from '@material-ui/core/Hidden';
 import {Link} from 'react-router-dom';
+import Hidden from '@material-ui/core/Hidden'
 
 const useStyles = makeStyles(theme => ({
     button: {
@@ -15,7 +14,7 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 const AdapterLink = React.forwardRef((props, ref) => <Link innerRef={ref} {...props} />);
-const RightPane = (props) => {
+const SkillPane = (props) => {
     const classes = useStyles();
 
     const buttons = props['skills'].map(el => {
@@ -33,15 +32,14 @@ const RightPane = (props) => {
 
     return (
         <Hidden only={['sm', 'xs']}>
-            <Box clone order={{ sm: 2, md: 3 }}>
-                <Grid item sm={2} xs={6}>
-                    <Paper style={props.styles.Paper}>
-                        <Grid container direction={'column'}>
-                            {buttons}
-                        </Grid>
-                    </Paper>
-                </Grid>
-            </Box>
+            <Grid item md={2} lg={2}>
+                <Paper style={props.styles.Paper}>
+                    <Grid container direction={'column'}>
+                        {buttons}
+                    </Grid>
+                </Paper>
+            </Grid>
         </Hidden>
-)};
-export default RightPane;
+    )
+};
+export default SkillPane

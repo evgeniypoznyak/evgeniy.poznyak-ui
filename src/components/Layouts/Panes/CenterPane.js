@@ -6,13 +6,14 @@ import Box from '@material-ui/core/Box';
 const CenterPane = (props) => {
 
     return (
-        <Box clone order={{sm: 3, md: 2}}>
-            <Grid item lg={8} md={8} sm={12} xs={12}>
-                <Paper style={props.styles.CenterPane}>
-                    {props.children}
-                </Paper>
-            </Grid>
-        </Box>
+        <Grid item lg={8} md={8} sm={12} xs={12}>
+            <Paper style={props.styles.CenterPane}>
+                {props.children}
+            </Paper>
+        </Grid>
+        // <Box clone order={{sm: 3, md: 2}}>
+        //
+        // </Box>
     )
 };
 

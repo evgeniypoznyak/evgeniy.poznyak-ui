@@ -28,7 +28,7 @@ const LeftPane = (props) => {
             className={classes.button}>
             {el.name}
         </Button>
-    })
+    });
 
     return (
         <Hidden only={['sm', 'xs']}>

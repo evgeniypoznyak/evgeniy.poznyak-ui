@@ -22,7 +22,6 @@ class App extends Component {
 
         let routes = (
             <Switch>
-
                 <Route path={'/login'} component={asyncAuth}/>
                 <Route path={'/skills/:skill'} component={asyncSkills}/>
                 <Route path={'/'} exact component={Home}/>

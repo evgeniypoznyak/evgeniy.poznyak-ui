@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import { skills,} from '../../Data/skillFakeData';
+import {skills,} from '../../Data/skillFakeData';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
@@ -38,8 +38,7 @@ class Skill extends Component {
 
     setupSkill() {
         this.selectedPath = this.props.history.location.pathname.split("/").pop();
-        let result = this.skills.find(el => el.id === this.selectedPath);
-        this.selectedSkill = result;
+        this.selectedSkill = this.skills.find(el => el.id === this.selectedPath);
     }
 
     componentDidMount() {
@@ -52,7 +51,6 @@ class Skill extends Component {
 
             content =
                 <Fragment>
-
                     <Grid container justify="center">
                         <Typography variant="h5" style={{
                             flexGrow: 1, textAlign: 'center', marginTop: 28
@@ -62,7 +60,6 @@ class Skill extends Component {
                         <Avatar alt="Skill logo" src={this.selectedSkill.logo}
                                 style={{margin: 5, width: 70, height: 70}}/>
                     </Grid>
-
                     <Typography variant="subtitle1">
                         {this.selectedSkill.description}
                     </Typography>
@@ -72,9 +69,7 @@ class Skill extends Component {
                 </Fragment>
         }
 
-        return (
-            <div>{content}</div>
-        )
+        return (<Fragment>{content}</Fragment>)
 
     }
 
