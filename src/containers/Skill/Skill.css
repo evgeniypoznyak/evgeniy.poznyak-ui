@@ -1,0 +1,16 @@
+.card {
+    max-width: 350px;
+}
+.media {
+    height: 140px;
+}
+
+.avatar {
+    margin: 10px;
+}
+
+.bigAvatar {
+    /*margin: 30px;*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+}

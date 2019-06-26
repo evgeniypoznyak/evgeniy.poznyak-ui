@@ -40,6 +40,8 @@ export default function Footer() {
         setValue(newValue);
     }
 
+
+
     // function handleChangeIndex(index) {
     //     setValue(index);
     // }

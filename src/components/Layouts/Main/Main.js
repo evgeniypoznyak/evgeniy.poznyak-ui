@@ -1,8 +1,9 @@
 import React from 'react';
-import {Grid, Paper} from '@material-ui/core';
+import {Grid} from '@material-ui/core';
 import LeftPane from '../Panes/LeftPane';
 import RightPane from '../Panes/RightPane';
 import CenterPane from '../Panes/CenterPane';
+import {skills} from '../../../Data/skillFakeData';
 
 const styles = {
     Paper: {
@@ -21,9 +22,9 @@ const styles = {
 
 const Main = (props) => (
     <Grid container justify={"space-between"} >
-        <LeftPane styles={styles}/>
-        <CenterPane styles={styles}/>
-        <RightPane styles={styles}/>
+        <LeftPane styles={styles} skills={skills}/>
+        <CenterPane styles={styles}>{props.children}</CenterPane>
+        <RightPane styles={styles} skills={skills}/>
     </Grid>
 );
 

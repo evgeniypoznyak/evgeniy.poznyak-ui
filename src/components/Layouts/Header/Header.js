@@ -17,7 +17,7 @@ import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
-
+import {NavLink} from 'react-router-dom';
 
 function ElevationScroll(props) {
     const {children, window} = props;
@@ -58,6 +58,14 @@ function Header(props) {
         },
         fullList: {
             width: 'auto',
+        },
+        avatar: {
+            margin: 10,
+        },
+        bigAvatar: {
+            margin: 10,
+            width: 60,
+            height: 60,
         },
     }));
 
@@ -138,6 +146,16 @@ function Header(props) {
         </div>
     );
 
+    let adminMenu = null;
+    if (false) {
+        adminMenu = <Typography>
+            <IconButton edge="start" className={classes.menuButton}
+                        onClick={toggleDrawer('right', true)} color="inherit" aria-label="Menu">
+                <MenuIcon/>
+            </IconButton>
+        </Typography>;
+    }
+
     return (
         <React.Fragment>
             <CssBaseline/>
@@ -149,15 +167,21 @@ function Header(props) {
                             <MenuIcon/>
                         </IconButton>
                         <Typography variant="h6" className={classes.title}>
-                            Evgeniy Poznyak - Software Engineer II
-                        </Typography>
-                        <Typography>
-                            <IconButton edge="start" className={classes.menuButton}
-                                        onClick={toggleDrawer('right', true)} color="inherit" aria-label="Menu">
-                                <MenuIcon/>
-                            </IconButton>
+
+                            <NavLink
+                                to={"/"}
+                                style={{textDecoration: 'none', color: 'inherit'}}
+                                activeClassName={classes.active}>
+                                <Button color="inherit">Evgeniy Poznyak</Button></NavLink>
+
                         </Typography>
 
+                        <Button
+                            href={"https://evgeniy.poznyaks.com/docs/resume/Evgeniy_Poznyak_Resume.pdf"}
+                            color="inherit"
+                            target="_blank"
+                        >Resume</Button>
+                        {adminMenu}
                     </Toolbar>
                 </AppBar>
             </ElevationScroll>
