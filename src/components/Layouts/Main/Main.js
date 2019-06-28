@@ -6,11 +6,12 @@ import SkillPane from '../Panes/SkillPane';
 
 const styles = {
     Paper: {
-        // padding: 5,
+        // height: "100%",
         marginTop: 5,
         marginBottom: 10,
     },
     CenterPane: {
+        height: "100%",
         padding: 20,
         marginTop: 5,
         marginBottom: 10,

@@ -32,7 +32,7 @@ const LeftPane = (props) => {
 
     return (
         <Hidden only={['sm', 'xs']}>
-            <Grid item md={2} sm={6} xs={6}>
+            <Grid item md={2} sm={6} xs={6} >
                 <Paper style={props.styles.Paper}>
                     <Grid container direction={'column'}>
                         {buttons}

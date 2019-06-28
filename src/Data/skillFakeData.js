@@ -124,6 +124,316 @@ export const skills = [
         ],
     },
     {
+        id: "nodejs",
+        name: "NodeJS",
+        panel: "left",
+        color: "primary",
+        version: "5",
+        logo: "/assets/skills/nodejs.png",
+        order: "2",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "reactjs",
+        name: "ReactJS",
+        panel: "right",
+        color: "primary",
+        version: "5",
+        logo: "/assets/skills/reactjs.png",
+        order: "2",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "angular",
+        name: "Angular",
+        panel: "right",
+        color: "primary",
+        version: "8",
+        logo: "/assets/skills/angular.png",
+        order: "1",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "vue",
+        name: "VueJS",
+        panel: "right",
+        color: "primary",
+        version: "0",
+        logo: "/assets/skills/vue.png",
+        order: "1",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "redux",
+        name: "Redux",
+        panel: "right",
+        color: "primary",
+        version: "8",
+        logo: "/assets/skills/redux-saga.png",
+        order: "1",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
         id: "dotnet-core",
         name: ".Net Core",
         panel: "left",
@@ -131,6 +441,441 @@ export const skills = [
         version: "2.2",
         logo: "/assets/skills/aspnet-core.png",
         order: "2",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "python",
+        name: "Python",
+        panel: "left",
+        color: "primary",
+        version: "0",
+        logo: "/assets/skills/python.png",
+        order: "1",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "mysql",
+        name: "MySQL",
+        panel: "left",
+        color: "primary",
+        version: "0",
+        logo: "/assets/skills/mysql.png",
+        order: "2",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "mongodb",
+        name: "MongoDB",
+        panel: "left",
+        color: "primary",
+        version: "5",
+        logo: "/assets/skills/mongo.png",
+        order: "2",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "dynamodb",
+        name: "DynamoDB",
+        panel: "left",
+        color: "primary",
+        version: "5",
+        logo: "/assets/skills/dynamodb.png",
+        order: "2",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "expressjs",
+        name: "ExpressJS",
+        panel: "left",
+        color: "primary",
+        version: "5",
+        logo: "/assets/skills/expressjs.png",
+        order: "2",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "/assets/skills/mongo_.png",
+                logo1: "/assets/skills/mongo_.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "docker",
+        name: "Docker",
+        panel: "left",
+        color: "primary",
+        version: "0",
+        logo: "/assets/skills/docker.png",
+        order: "1",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "microservices",
+        name: "Microservices",
+        panel: "left",
+        color: "primary",
+        version: "0",
+        logo: "/assets/skills/microservices.png",
+        order: "1",
         description: "Some awesome description",
         projects: [
             {
@@ -372,68 +1117,6 @@ export const skills = [
         ],
     },
     {
-        id: "mysql",
-        name: "MySQL",
-        panel: "left",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/mysql.png",
-        order: "2",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
         id: "symfony",
         name: "Symfony",
         panel: "left",
@@ -558,379 +1241,6 @@ export const skills = [
         ],
     },
     {
-        id: "nodejs",
-        name: "NodeJS",
-        panel: "left",
-        color: "primary",
-        version: "5",
-        logo: "/assets/skills/nodejs.png",
-        order: "2",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "expressjs",
-        name: "ExpressJS",
-        panel: "left",
-        color: "primary",
-        version: "5",
-        logo: "/assets/skills/expressjs.png",
-        order: "2",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "/assets/skills/mongo_.png",
-                logo1: "/assets/skills/mongo_.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "mongodb",
-        name: "MongoDB",
-        panel: "left",
-        color: "primary",
-        version: "5",
-        logo: "/assets/skills/mongo.png",
-        order: "2",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "dynamodb",
-        name: "DynamoDB",
-        panel: "left",
-        color: "primary",
-        version: "5",
-        logo: "/assets/skills/dynamodb.png",
-        order: "2",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "reactjs",
-        name: "ReactJS",
-        panel: "right",
-        color: "primary",
-        version: "5",
-        logo: "/assets/skills/reactjs.png",
-        order: "2",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "angular",
-        name: "Angular",
-        panel: "right",
-        color: "primary",
-        version: "8",
-        logo: "/assets/skills/angular.png",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
         id: "redux-saga",
         name: "Redux Saga",
         panel: "right",
@@ -993,12 +1303,12 @@ export const skills = [
         ],
     },
     {
-        id: "vue",
-        name: "VueJS",
+        id: "material-ui",
+        name: "Material UI",
         panel: "right",
         color: "primary",
         version: "0",
-        logo: "/assets/skills/vue.png",
+        logo: "/assets/skills/material-ui.png",
         order: "1",
         description: "Some awesome description",
         projects: [
@@ -1055,12 +1365,198 @@ export const skills = [
         ],
     },
     {
-        id: "redux",
-        name: "Redux",
+        id: "design-patterns",
+        name: "Design Patterns",
         panel: "right",
         color: "primary",
-        version: "8",
-        logo: "/assets/skills/redux-saga.png",
+        version: "0",
+        logo: "/assets/skills/design-patterns.png",
+        order: "1",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "tdd",
+        name: "TDD",
+        panel: "right",
+        color: "primary",
+        version: "0",
+        logo: "/assets/skills/tdd.png",
+        order: "1",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "solid",
+        name: "S.O.L.I.D.",
+        panel: "right",
+        color: "primary",
+        version: "0",
+        logo: "/assets/skills/solid.png",
+        order: "1",
+        description: "Some awesome description",
+        projects: [
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                gihub: 'https://github.com',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                    {
+                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
+                        description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'
+                    },
+                ]
+            },
+            {
+                id: "eandkphotography",
+                name: "E and K Photography",
+                companyName: '',
+                website: '',
+                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
+                letterLogo: "E",
+                dateCreated: "May 29, 2013",
+                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
+                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
+                shortDescription: 'In very beginning I created PHP website from scratch. ' +
+                    'I didn\'t choice any library or framework, it was in pure php.',
+                longDescription: [
+                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
+                            'created PHP website from scratch. ' +
+                            'I didn\'t choice any library or framework, it was in pure php.'},
+                ],
+                gihub: 'https://github.com',
+            },
+        ],
+    },
+    {
+        id: "ddd",
+        name: "DDD",
+        panel: "right",
+        color: "primary",
+        version: "0",
+        logo: "/assets/skills/ddd.gif",
         order: "1",
         description: "Some awesome description",
         projects: [
@@ -1365,378 +1861,6 @@ export const skills = [
         ],
     },
     {
-        id: "docker",
-        name: "Docker",
-        panel: "left",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/docker.png",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "microservices",
-        name: "Microservices",
-        panel: "left",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/microservices.png",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "solid",
-        name: "S.O.L.I.D.",
-        panel: "right",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/solid.png",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "ddd",
-        name: "DDD",
-        panel: "right",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/ddd.gif",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "tdd",
-        name: "TDD",
-        panel: "right",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/tdd.png",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "python",
-        name: "Python",
-        panel: "left",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/python.png",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
         id: "oauth",
         name: "OAuth2.0",
         panel: "right",
@@ -1799,136 +1923,12 @@ export const skills = [
         ],
     },
     {
-        id: "design-patterns",
-        name: "Design Patterns",
-        panel: "right",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/design-patterns.png",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
         id: "jquery",
         name: "jQuery",
         panel: "right",
         color: "primary",
         version: "0",
         logo: "https://i.dlpng.com/static/png/510838_preview.png",
-        order: "1",
-        description: "Some awesome description",
-        projects: [
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                gihub: 'https://github.com',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                    {
-                        picture: 'https://hygger.io/blog/wp-content/uploads/2018/05/Scrum-3.jpg',
-                        description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'
-                    },
-                ]
-            },
-            {
-                id: "eandkphotography",
-                name: "E and K Photography",
-                companyName: '',
-                website: '',
-                logo: "https://media.keyshot.com/uploads/2018/10/keyshot-icon-256.png",
-                letterLogo: "E",
-                dateCreated: "May 29, 2013",
-                cardCover: "https://data.eandkphoto.com/events/2015/09-september/newborn/large/EVG_73831.jpg",
-                images: ['http://image1.png', 'http://image2.png', 'http://image3.png'],
-                shortDescription: 'In very beginning I created PHP website from scratch. ' +
-                    'I didn\'t choice any library or framework, it was in pure php.',
-                longDescription: [
-                    {picture: '', description: 'In very beginning I created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php. In very beginning I ' +
-                            'created PHP website from scratch. ' +
-                            'I didn\'t choice any library or framework, it was in pure php.'},
-                ],
-                gihub: 'https://github.com',
-            },
-        ],
-    },
-    {
-        id: "css3-html5",
-        name: "CSS3/HTML5",
-        panel: "right",
-        color: "primary",
-        version: "0",
-        logo: "/assets/skills/html5.png",
         order: "1",
         description: "Some awesome description",
         projects: [
@@ -2047,12 +2047,12 @@ export const skills = [
         ],
     },
     {
-        id: "material-ui",
-        name: "Material UI",
+        id: "css3-html5",
+        name: "CSS3/HTML5",
         panel: "right",
         color: "primary",
         version: "0",
-        logo: "/assets/skills/material-ui.png",
+        logo: "/assets/skills/html5.png",
         order: "1",
         description: "Some awesome description",
         projects: [
