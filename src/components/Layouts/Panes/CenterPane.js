@@ -1,7 +1,5 @@
 import React from 'react';
 import {Grid, Paper} from '@material-ui/core';
-import Box from '@material-ui/core/Box';
-
 
 const CenterPane = (props) => {
 
@@ -11,9 +9,6 @@ const CenterPane = (props) => {
                 {props.children}
             </Paper>
         </Grid>
-        // <Box clone order={{sm: 3, md: 2}}>
-        //
-        // </Box>
     )
 };
 

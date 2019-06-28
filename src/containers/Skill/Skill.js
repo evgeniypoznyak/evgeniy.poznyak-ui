@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import {skills,} from '../../Data/skillFakeData';
+import {getSkillsByPanes, skills,} from '../../Data/skillFakeData';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
@@ -15,6 +15,7 @@ class Skill extends Component {
     constructor() {
         super();
         this.skills.push(...skills);
+        getSkillsByPanes();
     }
 
     componentWillMount() {
@@ -46,6 +47,19 @@ class Skill extends Component {
     }
 
     render() {
+        function randomString(length) {
+            var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split('');
+
+            if (! length) {
+                length = Math.floor(Math.random() * chars.length);
+            }
+
+            var str = '';
+            for (var i = 0; i < length; i++) {
+                str += chars[Math.floor(Math.random() * chars.length)];
+            }
+            return str;
+        }
         let content = null;
         if (this.selectedSkill) {
 
@@ -63,9 +77,16 @@ class Skill extends Component {
                     <Typography variant="subtitle1">
                         {this.selectedSkill.description}
                     </Typography>
-                    <Typography component="div">
-                        {this.selectedSkill.projects.map(project => <Project key={project.id} project={project}/>)}
-                    </Typography>
+
+                    {/*<Typography component="div">*/}
+                    <Grid container justify={'space-evenly'}>
+                        {this.selectedSkill.projects.map(project =>
+                            <Grid item key={project.id + randomString(10) + Math.floor(Math.random() * 20)}>
+                                <Project  project={project}/>
+                            </Grid>
+                        )}
+                    </Grid>
+                    {/*</Typography>*/}
                 </Fragment>
         }
 

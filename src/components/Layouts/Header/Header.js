@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -18,6 +18,10 @@ import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import {NavLink} from 'react-router-dom';
+import {skills} from '../../../Data/skillFakeData';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
+import Avatar from '@material-ui/core/Avatar';
+import {Link} from 'react-router-dom';
 
 function ElevationScroll(props) {
     const {children, window} = props;
@@ -67,6 +71,9 @@ function Header(props) {
             width: 60,
             height: 60,
         },
+        skillName: {
+            margin: 'auto'
+        }
     }));
 
 
@@ -85,7 +92,7 @@ function Header(props) {
 
         setState({...state, [side]: open});
     };
-
+    const AdapterLink = React.forwardRef((props, ref) => <Link innerRef={ref} {...props} />);
     const leftSideList = side => (
         <div
             className={classes.list}
@@ -95,7 +102,7 @@ function Header(props) {
         >
             <List>
                 {/* todo replace this loop */}
-                {['Left-Inbox', 'Left-Starred', 'Left-Send email', 'Left-Drafts'].map((text, index) => (
+                {['All mail', 'Trash', 'Spam'].map((text, index) => (
                     <ListItem button key={text}>
                         <ListItemIcon>{index % 2 === 0 ? <InboxIcon/> : <MailIcon/>}</ListItemIcon>
                         <ListItemText primary={text}/>
@@ -104,14 +111,27 @@ function Header(props) {
             </List>
             <Divider/>
             <List>
-                {/* todo replace this loop */}
-                {['All mail', 'Trash', 'Spam'].map((text, index) => (
-                    <ListItem button key={text}>
-                        <ListItemIcon>{index % 2 === 0 ? <InboxIcon/> : <MailIcon/>}</ListItemIcon>
-                        <ListItemText primary={text}/>
-                    </ListItem>
+                <Typography variant={'h6'} align={'center'}>
+                    My skills
+                </Typography>
+                {skills.map(skill => (
+                    <Fragment key={skill.id}>
+                        <ListItem
+                            alignItems={'center'}
+                            button
+                            component={AdapterLink}
+                            to={"/skills/" + skill.id}>
+                            <ListItemAvatar>
+                                <Avatar alt={skill.name} src={skill.logo}/>
+                            </ListItemAvatar>
+                            <ListItemText primary={skill.name} className={classes.skillName}/>
+                        </ListItem>
+                        <Divider component="li"/>
+                    </Fragment>
                 ))}
             </List>
+
+
         </div>
     );
     const rightSideList = side => (
