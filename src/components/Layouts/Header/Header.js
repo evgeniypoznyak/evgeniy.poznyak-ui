@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useContext} from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -18,10 +18,10 @@ import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import {NavLink} from 'react-router-dom';
-import {skills} from '../../../Data/skillFakeData';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import {Link} from 'react-router-dom';
+import {State} from '../../../shared/StateManager';
 
 function ElevationScroll(props) {
     const {children, window} = props;
@@ -76,6 +76,7 @@ function Header(props) {
         }
     }));
 
+    const skills = useContext(State);
 
     const [state, setState] = React.useState({
         top: false,
@@ -114,7 +115,7 @@ function Header(props) {
                 <Typography variant={'h6'} align={'center'}>
                     My skills
                 </Typography>
-                {skills.map(skill => (
+                {skills.data.rawData.map(skill => (
                     <Fragment key={skill.id}>
                         <ListItem
                             alignItems={'center'}
@@ -130,8 +131,6 @@ function Header(props) {
                     </Fragment>
                 ))}
             </List>
-
-
         </div>
     );
     const rightSideList = side => (
@@ -167,14 +166,6 @@ function Header(props) {
     );
 
     let adminMenu = null;
-    if (false) {
-        adminMenu = <Typography>
-            <IconButton edge="start" className={classes.menuButton}
-                        onClick={toggleDrawer('right', true)} color="inherit" aria-label="Menu">
-                <MenuIcon/>
-            </IconButton>
-        </Typography>;
-    }
 
     return (
         <React.Fragment>
@@ -187,15 +178,12 @@ function Header(props) {
                             <MenuIcon/>
                         </IconButton>
                         <Typography variant="h6" className={classes.title}>
-
                             <NavLink
                                 to={"/"}
                                 style={{textDecoration: 'none', color: 'inherit'}}
                                 activeClassName={classes.active}>
                                 <Button color="inherit">Evgeniy Poznyak</Button></NavLink>
-
                         </Typography>
-
                         <Button
                             href={"https://evgeniy.poznyaks.com/docs/resume/Evgeniy_Poznyak_Resume.pdf"}
                             color="inherit"

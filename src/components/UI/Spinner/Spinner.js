@@ -1,9 +1,19 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
-import classes from './Spinner.scss';
+const useStyles = makeStyles(theme => ({
+    progress: {
+        margin: theme.spacing(2),
+    },
+}));
 
-const spinner = () => (
-    <div className={classes.Loader}>Loading...</div>
-);
+export default function Spinner() {
+    const classes = useStyles();
 
-export default spinner;
+    return (
+        <div>
+            <CircularProgress className={classes.progress} />
+        </div>
+    );
+}
