@@ -1,6 +1,5 @@
 import React from 'react';
 import {Bio} from '../../shared/skillFakeData';
-// import avatarPicture from '../../../public/assets/me.jpg';
 import {makeStyles} from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
